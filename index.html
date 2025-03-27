@@ -1,14 +1,438 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="mdl-js">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="my health" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <title>my health</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link rel="icon" sizes="192x192" href="images/android-desktop.png" />
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#742fc2" />
+    <meta name="apple-mobile-web-app-title" content="my health" />
+    <meta name="msapplication-TileColor" content="#742fc2" />
+    <meta name="theme-color" content="#742fc2" />
+
+    <style>
+      .mdl-appg section.section--center {
+        max-width: 860px;
+      }
+      .mdl-card__supporting-text {
+        padding: 30px !important;
+        width: initial !important;
+      }
+
+      .flags {
+        position: absolute;
+        right: 30px;
+      }
+      .flags img {
+        cursor: pointer;
+        width: 25px;
+      }
+    </style>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.indigo-blue.min.css"
+      integrity="sha256-OKbH0cJaPdPQEySJxelp4+ITDr/pXIsvVhMU58ki7cM="
+      crossorigin="anonymous"
+    />
   </head>
-  <body>
-    <main>
-      <h1>Home</h1>
-      <p>Home page content goes here</p>
-    </main>
+
+  <body class="mdl-appg mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+    <div class="mdl-layout__container">
+      <div
+        class="mdl-layout mdl-js-layout mdl-layout--fixed-header is-upgraded"
+        data-upgraded=",MaterialLayout"
+      >
+        <main class="mdl-layout__content">
+          <div class="mdl-layout__tab-panel is-active">
+            <section class="section--center mdl-grid">
+              <div class="mdl-card mdl-cell mdl-cell--12-col mdl-shadow--2dp">
+                <div class="mdl-card__supporting-text">
+                  <div class="flags">
+                    <a href="/MjI4MDEzNQ==/privacy/pt"
+                      ><img
+                        src="https://s3.amazonaws.com/fabapp-countries-flags/bra.svg"
+                    /></a>
+                    <a href="/MjI4MDEzNQ==/privacy/es"
+                      ><img
+                        src="https://s3.amazonaws.com/fabapp-countries-flags/esp.svg"
+                    /></a>
+                    <a href="/MjI4MDEzNQ==/privacy/en"
+                      ><img
+                        src="https://s3.amazonaws.com/fabapp-countries-flags/usa.svg"
+                    /></a>
+                  </div>
+                  <div id="privacy_content">
+                    <h3>Termo de Privacidade - Training - Enterprise</h3>
+                    <h2>Introdução</h2>
+                    <p>TEXTO</p>
+                    <p></p>
+                    <p>TEXTO</p>
+                    <p></p>
+                    <p>TEXTO.</p>
+                    <p></p>
+                    <p>
+                      Ao optar por usar o nossos serviços, você concorda com a
+                      coleta e uso de informações relacionadas a essa política,
+                      lembrando que os dados coletados por nós são usados
+                      primordialmente para fornecer e melhorar nossos serviços.
+                    </p>
+                    <p></p>
+                    <p>
+                      Salientamos ainda que os dados coletados não serão
+                      compartilhados em nenhuma hipótese que não esteja prevista
+                      nesta Política de Privacidade.
+                    </p>
+                    <h2>Dados Tratados e Finalidade do Tratamento</h2>
+                    <p>
+                      Durante a utilização do aplicativo, podemos exigir que
+                      você nos forneça alguns dados voluntariamente, como:
+                      e-mail e nome completo.
+                    </p>
+                    <p></p>
+                    <p>
+                      Estes dados são coletados para que possamos executar e
+                      melhorar os serviços oferecidos, personalizando o contato
+                      para nos manter cada vez mais conectados.
+                    </p>
+                    <p></p>
+                    <p>
+                      O nome completo e o e-mail são dados obrigatórios para que
+                      você possa finalizar o seu cadastro e utilizar totalmente
+                      os serviços oferecidos.
+                    </p>
+                    <p></p>
+                    <p>
+                      Com eles vamos identificar o seu perfil no sistema e
+                      liberar o acesso à partes do app que você tenha
+                      autorização para acessar e individualizar sua atividade no
+                      aplicativo.
+                    </p>
+                    <p></p>
+                    <p>
+                      As informações que solicitamos serão retidas por nós e
+                      usadas para fornecer o serviço oferecido pelo app,
+                      facilitar a operação do aplicativo, promover o app e
+                      ofertas dentro do app, melhorar constantemente o serviço
+                      oferecido, conhecer melhor o perfil do usuário, enviar
+                      comunicações sobre atualizações e novos serviços e
+                      disponibilizar uma experiência cada vez melhor enquanto
+                      você mantiver seus dados no nosso sistema. Lembrando que
+                      você pode excluir seu perfil quando quiser, através do
+                      próprio aplicativo.
+                    </p>
+                    <p></p>
+                    <h3 contenteditable="false">
+                      Dados Tratados por terceiros e Finalidade do Tratamento
+                    </h3>
+                    <p contenteditable="false">
+                      O aplicativo usa serviços de terceiros que podem coletar
+                      informações usadas para identificá-lo, como:
+                    </p>
+                    <a></a><a></a>
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td colspan="1" rowspan="1">
+                            <p></p>
+                          </td>
+                          <td colspan="1" rowspan="1">
+                            <p contenteditable="false">Finalidade</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td colspan="1" rowspan="1">
+                            <p>
+                              <a
+                                contenteditable="false"
+                                href="https://aws.amazon.com/pt/privacy&amp;sa=D&amp;source=editors&amp;ust=1668114069941598&amp;usg=AOvVaw0Yvxv7DODi5isOB58osSOf"
+                                >Amazon AWS</a
+                              >
+                            </p>
+                          </td>
+                          <td contenteditable="false" colspan="1" rowspan="1">
+                            <p>Onde seus dados serão armazenados</p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p></p>
+                    <p contenteditable="false">
+                      Importante ressaltar que, sempre que você usar os nossos
+                      Serviços, coletamos dados de registro. Esses dados de
+                      registro podem incluir informações como identificadores
+                      online, identificadores de cookies, endereços de protocolo
+                      de internet, identificadores de dispositivos,
+                      identificadores de cliente, endereço de ip, nome do
+                      dispositivo, versão do sistema operacional, configuração
+                      do aplicativo ao utilizar os nossos serviços, a hora e a
+                      data do seu uso do serviço e outras estatísticas.
+                    </p>
+                    <p></p>
+                    <p contenteditable="false">
+                      Uma vez que os serviços de hospedagem e servidores podem
+                      não estar localizados no território brasileiro.
+                      Ressaltamos que sempre que transferirmos informações
+                      pessoais para outras jurisdições, garantimos que tais
+                      informações sejam transferidas de acordo com esta política
+                      de privacidade e conforme permitido pela legislação de
+                      proteção de dados aplicável.
+                    </p>
+                    <p></p>
+                    <h2 contenteditable="false">Compartilhamento dos Dados</h2>
+                    <p contenteditable="false">
+                      Como visto, empregamos empresas terceiras devido às
+                      seguintes razões:
+                    </p>
+                    <p></p>
+                    <ul>
+                      <li contenteditable="false">Facilitar nosso serviço;</li>
+                      <li contenteditable="false">
+                        Fornecer o serviço em nosso nome;
+                      </li>
+                      <li contenteditable="false">
+                        Executar serviços relacionados a serviços do aplicativo;
+                        ou
+                      </li>
+                      <li contenteditable="false">
+                        Ajudar a analisar como nosso serviço é usado.
+                      </li>
+                    </ul>
+                    <p></p>
+                    <p contenteditable="false">
+                      Esses terceiros têm acesso a certos dados pessoais para
+                      executar as tarefas atribuídas a eles em nosso nome.
+                    </p>
+                    <p></p>
+                    <p contenteditable="false">
+                      No entanto, eles são obrigados a não divulgar ou usar as
+                      informações para qualquer outra finalidade.
+                    </p>
+                    <p></p>
+                    <p contenteditable="false">
+                      Lembramos que também podemos compartilhar informações
+                      pessoais de usuários com empresas, organizações ou
+                      indivíduos externos ao serviço prestado, se acreditarmos,
+                      de boa-fé, que o acesso, o uso, a preservação ou a
+                      divulgação das informações sejam necessários para:
+                    </p>
+                    <p></p>
+                    <ol start="1">
+                      <li contenteditable="false">
+                        Cumprir qualquer legislação, regulamentação, ordem
+                        judicial ou solicitação governamental aplicável;
+                      </li>
+                      <li contenteditable="false">
+                        Cumprir os Termos de Serviço aplicáveis, inclusive a
+                        investigação de possíveis violações;
+                      </li>
+                      <li contenteditable="false">
+                        Detectar, impedir ou lidar de alguma forma com fraudes,
+                        problemas técnicos ou de segurança;
+                      </li>
+                      <li contenteditable="false">
+                        Proteger contra prejuízo aos direitos, à propriedade ou
+                        à segurança dos nossos usuários ou do público, conforme
+                        solicitado ou permitido por lei.
+                      </li>
+                    </ol>
+
+                    <h2>Links para outros sites</h2>
+                    <p>
+                      Este aplicativo pode conter links, webviews e iframes para
+                      outros sites.
+                    </p>
+                    <p></p>
+                    <p>
+                      Se você clicar em um link de terceiros e/ou acessar o
+                      conteúdo desses sites, você será direcionado para esse
+                      site e estará sujeito às políticas de privacidade dos
+                      mesmos.
+                    </p>
+                    <p></p>
+                    <p>
+                      Observe que esses sites externos não são operados por nós.
+                    </p>
+                    <p></p>
+                    <p>
+                      Portanto, aconselhamos fortemente que você revise a
+                      Política de Privacidade desses sites, pois não temos
+                      controle e não assumimos nenhuma responsabilidade pelo
+                      conteúdo, políticas de privacidade ou práticas de
+                      quaisquer sites ou serviços de terceiros.
+                    </p>
+                    <h2>Cookies</h2>
+                    <p>
+                      Cookies são arquivos com uma pequena quantidade de dados
+                      que são comumente usados ​​como identificadores exclusivos
+                      anônimos. Eles são enviados para o seu navegador a partir
+                      dos sites que você visita e são armazenados na memória
+                      interna do seu dispositivo.
+                    </p>
+                    <p></p>
+                    <p>Este serviço não utiliza "cookies" explicitamente.</p>
+                    <p></p>
+                    <p>
+                      No entanto, o aplicativo pode usar código de terceiros e
+                      bibliotecas que usam "cookies" para coletar informações e
+                      melhorar seus serviços. Você tem a opção de aceitar ou
+                      recusar esses cookies e saber quando um cookie está sendo
+                      enviado para o seu dispositivo. Se você optar por recusar
+                      nossos cookies, talvez não consiga usar algumas partes
+                      deste serviço.
+                    </p>
+                    <h2>Segurança</h2>
+                    <p>
+                      Nós valorizamos sua confiança ao nos fornecer seus Dados
+                      Pessoais, assim, estamos nos esforçando para usar meios
+                      comercialmente aceitáveis ​​de protegê-los. Todas as
+                      informações coletadas dos usuários trafegam de forma
+                      segura, utilizando processo de criptografia padrão da
+                      Internet;
+                    </p>
+                    <p></p>
+                    <p>
+                      Mas lembre-se de que nenhum método de transmissão pela
+                      Internet, ou método de armazenamento eletrônico é 100%
+                      seguro e confiável, e nós não podemos garantir sua
+                      segurança absoluta.
+                    </p>
+                    <p></p>
+                    <p>
+                      Ainda assim, estamos sempre alertas a qualquer situação
+                      que possa gerar riscos aos seus dados sob nossa
+                      responsabilidade, de forma que procuraremos sempre
+                      informar a todos sobre eventuais quebras de segurança o
+                      mais rápido possível.
+                    </p>
+                    <h2>Direito dos Titulares</h2>
+                    <p>
+                      é muito importante que você tenha total controle dos dados
+                      pessoais que compartilha conosco.
+                    </p>
+                    <p></p>
+                    <p>
+                      é possível acessar ou corrigir esses dados a qualquer
+                      momento através do próprio aplicativo ou então desativar
+                      sua conta excluindo permanentemente seus dados quando
+                      quiser.
+                    </p>
+                    <p></p>
+                    <p>
+                      Lembrando ainda que você pode sempre entrar em contato
+                      conosco para quaisquer esclarecimentos.
+                    </p>
+                    <p></p>
+                    <p>
+                      Observe que, para ajudar a proteger sua privacidade e
+                      manter a segurança, tomamos medidas para verificar sua
+                      identidade antes de conceder acesso a suas informações
+                      pessoais ou cumprir exclusão, portabilidade ou outras
+                      solicitações relacionadas.
+                    </p>
+                    <h2>Privacidade Infantil</h2>
+                    <p>
+                      Estes serviços não tratam ninguém com idade inferior a 13
+                      anos. Não coletamos intencionalmente informações
+                      pessoalmente identificáveis de crianças menores de 13
+                      anos. Caso uma criança com menos de 13 anos forneça
+                      informações pessoais, excluiremos imediatamente estes
+                      dados dos nossos servidores tão logo seja identificado o
+                      fato.
+                    </p>
+                    <p></p>
+                    <p>
+                      Se você é pai/mãe ou responsável legal e sabe que seu
+                      filho(a) nos forneceu informações pessoais, entre em
+                      contato conosco para que possamos tomar as providências
+                      necessárias.
+                    </p>
+                    <h2>Alteração da Política de Privacidade</h2>
+                    <p>
+                      Podemos revisar esta Política de Privacidade sempre que
+                      entendermos que uma alteração seja necessária para
+                      aumentar sua transparência e eficiência, sendo a versão
+                      mais atual a aplicável ao processamento de seus dados
+                      pessoais.
+                    </p>
+                    <!-- <p></p>
+                    <p>
+                      Você poderá sempre acessar esta política em:
+                      <a
+                        href="https://politicas.applink.com.br/2280135/privacy-policy"
+                        >https://politicas.applink.com.br/2280135/privacy-policy</a
+                      >.
+                    </p> !-->
+                    <p></p>
+                    <p>
+                      Se efetuarmos alguma alteração nesta Política de
+                      Privacidade que, a nosso critério exclusivo, seja
+                      substancial, encaminharemos um aviso para todos os
+                      usuários comunicando tal alteração e solicitando a
+                      aceitação da nova política de privacidade atualizada.
+                    </p>
+                    <p></p>
+                    <p>
+                      Ao continuar a acessar ou utilizar os serviços do
+                      aplicativo após a data de entrada em vigor da nova
+                      política, você aceita e concorda em estar vinculado à
+                      versão revisada da mesma.
+                    </p>
+
+                    <h2>Data do Documento</h2>
+                    <p>
+                      Esta política de privacidade entrou em vigor em 27 de
+                      março de 2025.
+                    </p>
+                    <h2>Canal de Contato Área de Privacidade/DPO</h2>
+                    <p>
+                      Qualquer dúvida, você pode entrar em contato com nosso
+                      encarregado de dados através do e-mail:
+                      <a href="mailto:enzo.santdev404@gmail.com"
+                        >enzo.santdev404@gmail.com</a
+                      >
+                    </p>
+                    <p><span></span></p>
+                    <p>
+                      Nosso encarregado de dados terá o maior prazer em te
+                      atender.
+                    </p>
+                    <p>
+                      Valorizamos uma cultura de proteção de dados pessoais e
+                      por tal motivo estaremos sempre abertos para sugestões,
+                      críticas e elogios.
+                    </p>
+                    <p>Obrigado por confiar em nós!</p>
+                    <p><span></span></p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- Material Lite -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.min.js"
+      integrity="sha256-PCfu4+fnQrp4wNmVbjN1eaX4LbOvOejab0UOhjLezrw="
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
